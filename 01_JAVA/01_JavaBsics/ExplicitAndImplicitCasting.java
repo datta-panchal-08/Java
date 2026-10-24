@@ -1,0 +1,17 @@
+class ExplicitAndImplicitCasting 
+{
+	public static void main(String[] args) 
+	{
+		// Implicit Casting =>
+		int num = 10;
+		double value = num;
+
+        System.out.println("Implicit Casting : "+"Before Casting num = "+num+" After Casting value = "+value);
+
+		// Explicit Casting
+        double sal = 200000.65;
+		int salary = (int) sal;
+        System.out.println("Explicit Casting : "+"Before Casting Sal = "+sal+" After Casting To Integer = "+salary);
+          
+	}
+}

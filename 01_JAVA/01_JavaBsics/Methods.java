@@ -1,0 +1,33 @@
+class Methods 
+{
+	public static void main(String[] args) 
+	{
+		Methods m = new Methods();
+		m.greet();
+		m.displayName("Dattaray Panchal..");
+		String otp = m.otpGen();
+		System.out.println("OTP "+otp);
+		int result = m.sum(345,645);
+		System.out.println("Sum Of Two Numbers is : "+result);
+	}
+    
+	// Method with no parameter and no return
+	public void greet(){
+		System.out.println("Kaise Ho Bhaisahab! ");
+	}
+
+	// With Parameter,No Return
+	public void displayName(String name){
+		System.out.println("Hello "+name);
+	}
+
+	// No Parameter , But Returns a value
+	public String otpGen(){
+		return "567809";
+	}
+
+	// With Parameter And Return 
+	public int sum(int a,int b){
+		return a+b;
+	}
+}
