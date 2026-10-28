@@ -174,11 +174,13 @@ Java/
 │   ├── SpringCoreProject_02
 │   └── SpringCoreProject_03
 │
-└── Spring Boot & JPA Projects
-    ├── BootP02
-    ├── BookAPI
-    ├── JPAP01
-    └── JPAP02
+├── 05_Spring_Boot/
+│   ├── BootP02/
+│   └── BookAPI/
+│
+└── 06_Spring_Data_JPA/
+    ├── JPAP01/
+    └── JPAP02/
 ```
 
 *This is a high-level overview; individual project folders may evolve as the repository grows.*
